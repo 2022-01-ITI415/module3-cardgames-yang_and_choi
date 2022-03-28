@@ -11,12 +11,12 @@ TagManager:
   - 
   - Water
   - UI
-  - Row0
-  - Row1
-  - Row2
-  - Row3
-  - Discard
-  - Draw
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -40,4 +40,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Row0
+    uniqueID: 1592765425
+    locked: 0
+  - name: Row1
+    uniqueID: 2192779127
+    locked: 0
+  - name: Row2
+    uniqueID: 795161137
+    locked: 0
+  - name: Row3
+    uniqueID: 1686707633
+    locked: 0
+  - name: Discard
+    uniqueID: 3449135319
+    locked: 0
+  - name: Draw
+    uniqueID: 723725353
     locked: 0
