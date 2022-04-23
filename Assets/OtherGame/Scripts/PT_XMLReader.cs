@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using Prospector;
+using Golf;
 
 
 /*
@@ -19,7 +19,7 @@ xml["jeremy"][0]["friend"][0].text
 xml["jeremy"][0].att("age");
 */
 
-namespace Prospector
+namespace Golf
 {
 
 	[System.Serializable]
@@ -480,4 +480,4 @@ namespace Prospector
 
 	*/
 
-}		
+}				

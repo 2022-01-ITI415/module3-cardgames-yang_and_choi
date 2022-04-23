@@ -1,14 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Prospector;
+using Golf;
 
-namespace Prospector
+namespace Golf
 {
-
-    // The SlotDef class is not a subclass of MonoBehaviour, so it doesn't need
-    //   a separate C# file.
-    [System.Serializable] // This makes SlotDefs visible in the Unity Inspector pane
     public class SlotDef
     {
         public float x;
@@ -32,7 +28,7 @@ namespace Prospector
         public SlotDef discardPile;
         // This holds all of the possible names for the layers set by layerID
         public string[] sortingLayerNames = new string[] { "Row0", "Row1",
- "Row2", "Row3", "Discard", "Draw" };
+ "Row2", "Row3", "Row4", "Discard", "Draw" };
         // This function is called to read in the LayoutXML.xml file
         public void ReadLayout(string xmlText)
         {
@@ -92,4 +88,5 @@ namespace Prospector
             }
         }
     }
+
 }

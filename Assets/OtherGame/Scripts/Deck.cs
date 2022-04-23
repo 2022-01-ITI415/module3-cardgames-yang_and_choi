@@ -1,10 +1,11 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using Prospector;
+using Golf;
 
-namespace Prospector
+namespace Golf
 {
+
 	public class Deck : MonoBehaviour
 	{
 

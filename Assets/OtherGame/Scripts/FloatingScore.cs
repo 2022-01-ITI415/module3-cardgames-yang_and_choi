@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Prospector;
+using Golf;
 
-namespace Prospector
+
+namespace Golf
 {
+
     // An enum to track the possible states of a FloatingScore
     public enum eFSState
     {

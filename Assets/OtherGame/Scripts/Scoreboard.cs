@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Prospector;
+using Golf;
 // The Scoreboard class manages showing the score to the player
 
-namespace Prospector
+
+namespace Golf
 {
     public class Scoreboard : MonoBehaviour
     {

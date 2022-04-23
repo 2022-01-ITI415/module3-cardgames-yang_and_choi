@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-namespace Prospector
-{
+using Golf;
+
+namespace Golf {
     public class Card : MonoBehaviour
     {
 

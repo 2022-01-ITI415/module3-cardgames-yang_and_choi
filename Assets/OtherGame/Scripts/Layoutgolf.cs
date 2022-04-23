@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Golf;
 
-namespace Golf
-{
+
     public class SlotDef
     {
         public float x;
@@ -16,7 +16,7 @@ namespace Golf
         public string type = "slot";
         public Vector2 stagger;
     }
-    public class Layoutgolf : MonoBehaviour
+    public class LayoutGolf : MonoBehaviour
     {
         public PT_XMLReader xmlr; // Just like Deck, this has a PT_XMLReader
         public PT_XMLHashtable xml;  // This variable is for faster xml access
@@ -87,4 +87,4 @@ namespace Golf
             }
         }
     }
-}
+

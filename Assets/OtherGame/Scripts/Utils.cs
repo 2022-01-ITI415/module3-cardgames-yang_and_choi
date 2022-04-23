@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using Prospector;
+using Golf;
 
-namespace Prospector
+namespace Golf 
 {
 	// This is actually OUTSIDE of the Utils Class
 	public enum BoundsTest
