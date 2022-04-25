@@ -48,7 +48,7 @@ namespace Golf
 			// from page 576
 			if (GameObject.Find("_Deck") == null)
 			{
-				GameObject anchorGO = new GameObject("_Deck");
+				GameObject anchorGO = new GameObject("Deck");
 				deckAnchor = anchorGO.transform;
 			}
 

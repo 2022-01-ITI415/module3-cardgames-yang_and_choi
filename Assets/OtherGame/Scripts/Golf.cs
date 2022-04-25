@@ -13,8 +13,8 @@ namespace Golf
         static public Golf S;
 
         [Header("Set in Inspector")]
-        public TextAsset deckXML;
-        public TextAsset layoutXML;
+        public TextAsset DeckXML;
+        public TextAsset LayoutGolfXML;
         public float xOffset = 3;
         public float yOffset = -2.5f;
         public Vector3 layoutCenter;
@@ -76,7 +76,7 @@ namespace Golf
         {
             Scoreboard.S.score = ScoreManager.SCORE;
             deck = GetComponent<Deck>();
-            deck.InitDeck(deckXML.text);
+            deck.InitDeck(DeckXML.text);
             Deck.Shuffle(ref deck.cards);  // This shuffles the deck by reference // a
             Card c;
             for (int cNum = 0; cNum < deck.cards.Count; cNum++)
@@ -85,7 +85,7 @@ namespace Golf
                 c.transform.localPosition = new Vector3((cNum % 13) * 3, cNum / 13 * 4, 0);
             }
             layout = GetComponent<Layout>();   // Get the Layout component
-            layout.ReadLayout(layoutXML.text); // Pass LayoutXML to it
+            layout.ReadLayout(LayoutGolfXML.text); // Pass LayoutXML to it
             drawPile = ConvertListCardsToListCardGolfs(deck.cards);
             LayoutGame();
         }
