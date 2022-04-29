@@ -23,7 +23,7 @@ namespace Golf
         public PT_XMLHashtable xml;  // This variable is for faster xml access
         public Vector2 multiplier; // The offset of the tableau's center
                                    // SlotDef references
-        public List<SlotDef> slotDefs; // All the SlotDefs for Row0-Row3
+        public List<SlotDef> slotDefs = new List<SlotDef> (); // All the SlotDefs for Row0-Row3
         public SlotDef drawPile;
         public SlotDef discardPile;
         // This holds all of the possible names for the layers set by layerID
