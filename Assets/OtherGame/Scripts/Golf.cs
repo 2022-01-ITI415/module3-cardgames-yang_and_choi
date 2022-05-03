@@ -21,7 +21,9 @@ namespace Golf
         public Vector2 fsPosMid = new Vector2(0.5f, 0.90f);
         public Vector2 fsPosRun = new Vector2(0.5f, 0.75f);
         public Vector2 fsPosMid2 = new Vector2(0.4f, 1.0f);
-        public Vector2 fsPosEnd = new Vector2(0.5f, 0.95f);
+        //public Vector2 fsPosEnd = new Vector2(0.5f, 0.95f);
+        public Vector2 fsPosEnd = new Vector2(1f, 3f);
+
         public float reloadDelay = 2f;// 2 sec delay between rounds
         public Text gameOverText, roundResultText, highScoreText;
 
